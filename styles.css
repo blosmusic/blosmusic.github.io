@@ -1,9 +1,39 @@
+nav, h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav, h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
 head {
   background-color: #000;
-  /* color: #fff; */
   text-color: #fff;
   text-align: center;
   padding: 20px;
+}
+
+nav {
+  background-color: #000;
+  color: #fff;
+  border-bottom: 3px;
+  border-bottom-color: #00ff61;
+  padding: 20px;
+  width:auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: underline;
+  text-decoration-color: #fff;
+  
 }
 
 #BLOS_Logo_Header {
