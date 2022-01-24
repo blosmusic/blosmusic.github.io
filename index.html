@@ -4,34 +4,103 @@
 <header>
   <title>Ben L. O'Sullivan</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta charset=" UTF-8">
   <meta name="description" content="BLOS Portfolio Site">
   <meta name="keywords" content="HTML, CSS, JavaScript">
   <meta name="author" content="Benedict Lamb OSullivan">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  MUSICIAN | COMPOSER | EDUCATOR
+  <div>
+    <ul>
+
+      <div class="headerLeft">
+        <li>MUSICIAN | COMPOSER | EDUCATOR</li>
+      </div>
+
+      <li class="headerRight">
+        <div class="socialIcons">
+          <a href="https://www.facebook.com/blosmusic" target="_blank" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/blosmusic" target="_blank" class="fa fa-twitter"></a>
+          <a href="https://www.youtube.com/channel/UCEV73n3RhzGsYWp4kQbLjaQ" target="_blank" class="fa fa-youtube"></a>
+          <a href="https://www.instagram.com/blosmusic/" target="_blank" class="fa fa-instagram"></a>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+
 </header>
 
 <body>
   <nav>
     <ul>
       <div class="navLeft">
-        <li><a href="#"><img id="BLOS_Logo_Header" src="/files/2021BLOS_Logo_FullScreen.PNG" alt="BLOS Logo" href-"Home"></a></li>
+        <li><a href="#home"><img id="BLOS_Logo_Header" src="/files/2021BLOS_Logo_FullScreen.png" alt="BLOS Logo" href-"#Home"></a></li>
       </div>
-      <li class="navRight"><a href="#">Contact</a></li>
-      <li class="navRight"><a href="#">About</a></li>
+      <li class="navRight"><a href="#contact">Contact</a></li>
+      <li class="navRight"><a href="#about">About</a></li>
     </ul>
   </nav>
   <br>
-<div>
-  <h2>WELCOME</h2>
-  <p>Welcome to my portfolio site!</p>
-</div>
+  <!-- home section -->
+  <div class="row">
+    <div class="column">
+
+      <div id="home">
+        <h2>WELCOME</h2>
+        <p>Welcome to my portfolio site!</p>
+      </div>
+
+    </div>
+  </div>
+  <br>
+  <!-- about section -->
+  <!-- left column -->
+  <div class="row">
+    <div class="column">
+
+      <div id="about">
+        <h2>ABOUT</h2>
+        <p>BLOS is a musician, composer, and researcher.</p>
+        <p>The projects available here are designed to help musicians practice and include within creatvie practice.
+        </p>
+      </div>
+
+    </div>
+    <br>
+    <!-- right column -->
+    <div class="column">
+
+      <img class="pictureContainer" src="/files/ProfilePic.jpg" alt="BLOS Profiler">
+
+    </div>
+  </div>
+  <br>
+  <!-- contact section -->
+  <!-- left column -->
+  <div class="row">
+    <div class="column">
+
+      <div id="contact">
+        <h2>CONTACT</h2>
+        <p>Email: hi@benlambosullivan.com</p>
+        <p>Email: blosguitarist@gmail.com</p>
+      </div>
+
+    </div>
+    <!-- right column -->
+    <div class="column">
+
+      <h3>BLOS MAP</h3>
+
+    </div>
+  </div>
 
 </body>
 
 <footer>
-  <img id="BLOS_Logo_Footer" src="/files/2021BLOS_Logo_FullScreen.PNG" alt="BLOS Logo" href-"Home">
+  <a href="#home"><img id="BLOS_Logo_Footer" src="/files/2021BLOS_Logo_FullScreen.png" alt="BLOS Logo" href-"#Home"></a>
 </footer>
 
 </html>

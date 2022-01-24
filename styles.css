@@ -6,12 +6,20 @@ header, nav, h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-header, nav, h2 {
+header, nav, h2, h3 {
   font-size: 16px;
 }
 
 h1 {
   font-size: 30px;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline;
 }
 
 header, footer {
@@ -29,7 +37,35 @@ header, footer, nav {
 }
 
 header {
-  text-align: left;
+  /* text-align: left; */
+}
+
+.headerLeft {
+  float: left;
+}
+
+.headerRight {
+  float: right;
+}
+
+.socialIcons a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.socialIcons a:hover {
+  color: #00ff9f;
+  transition-duration: 0.6s;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.fa {
+  font-size: 30px;
+  width: 25px;
+  text-align: right;
 }
 
 nav {
@@ -62,6 +98,7 @@ nav {
 
 .navRight a:hover {
   color: #00ff9f;
+  transition-duration: 0.4s;
 }
 
 ul {
@@ -73,12 +110,32 @@ body {
   background-color: #fff;
 }
 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+.pictureContainer {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  border-radius: 3%;
+  filter: grayscale(60%);
+}
+
 footer {
-  /* text-align: center; */
+  text-align: center;
 }
 
 #BLOS_Logo_Footer {
   float: center;
-  width: 190px;
+  width: 200px;
   height: 120px;
 }
