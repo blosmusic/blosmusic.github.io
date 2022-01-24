@@ -1,9 +1,10 @@
+/* header and global styles */
 header, nav, h1, h2, h3, h4, h5, h6, p {
   font-family: 'Open Sans', sans-serif;
 }
 
 header, nav, h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 header, nav, h2, h3 {
@@ -12,6 +13,14 @@ header, nav, h2, h3 {
 
 h1 {
   font-size: 30px;
+  text-decoration: none;
+  color: #000;
+}
+
+h1:hover {
+  color: #00ff9f;
+  text-decoration: none;
+  transition-duration: 0.4s;
 }
 
 h2, h3 {
@@ -22,11 +31,15 @@ h2 {
   text-decoration: underline;
 }
 
+h6 {
+  font-size: 12px;
+}
+
 header, footer {
   background-color: #000;
   color: #00ff9f;
   font-size: 13px;
-  padding: 20px 50px;
+  padding: 20px 20px;
   border-top: solid 3px;
   border-top-color: #00ff9f;
 }
@@ -37,7 +50,7 @@ header, footer, nav {
 }
 
 header {
-  /* text-align: left; */
+  padding-left: 20px;
 }
 
 .headerLeft {
@@ -49,14 +62,15 @@ header {
 }
 
 .socialIcons a {
+  font-size: 20px;
   float: left;
-  color: white;
+  color: #00ff9f;
   text-decoration: none;
   padding: 5px;
 }
 
 .socialIcons a:hover {
-  color: #00ff9f;
+  color: #fff;
   transition-duration: 0.6s;
   text-decoration: none;
   padding: 5px;
@@ -68,6 +82,7 @@ header {
   text-align: right;
 }
 
+/* navigation specific */
 nav {
   background-color: #fff;
   color: #000;
@@ -83,6 +98,8 @@ nav {
 
 .navLeft a {
   float: left;
+  color: #000;
+  text-decoration: none;
 }
 
 .navRight a {
@@ -94,6 +111,7 @@ nav {
 
 .navLeft a:hover {
   color: #00ff9f;
+  transition-duration: 0.4s;
 }
 
 .navRight a:hover {
@@ -106,6 +124,7 @@ ul {
   display: inline;
 }
 
+/* main body */
 body {
   background-color: #fff;
 }
@@ -116,6 +135,11 @@ body {
 
 .column {
   flex: 50%;
+  padding: 10px;
+}
+
+.footerColumn {
+  flex: 33%;
   padding: 10px;
 }
 
@@ -130,12 +154,37 @@ body {
   filter: grayscale(60%);
 }
 
+/* footer specific */
 footer {
   text-align: center;
 }
 
 #BLOS_Logo_Footer {
   float: center;
-  width: 200px;
+  width: 220px;
   height: 120px;
+}
+
+/* media queries for smaller screens */
+@media screen and (max-width: 600px) {
+  .headerRight {
+    display: none;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  .column, .footerColumn {
+    flex: 100%;
+  }
+
+  .footerColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .socialIcons a {
+    float: center;
+  }
 }
