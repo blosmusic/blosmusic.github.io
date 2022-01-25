@@ -1,5 +1,5 @@
 /* header and global styles */
-header, nav, h1, h2, h3, h4, h5, h6, p {
+header, nav, h1, h2, h3, h4, h5, h6, p, #emailButton {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -96,7 +96,7 @@ nav {
   height: 90px;
 }
 
-.navLeft a {
+.navLeft {
   float: left;
   color: #000;
   text-decoration: none;
@@ -163,6 +163,30 @@ footer {
   float: center;
   width: 220px;
   height: 120px;
+}
+
+/* contact specific */
+#contact {
+  text-align: center;
+}
+
+#emailButton {
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 13px;
+  outline: #000 solid 2px;
+  background-color: #00ff9f;
+  color: #000;
+}
+
+#emailButton:hover {
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 13px;
+  outline: #00ff9f solid 2px;
+  background-color: #000;
+  color: #00ff9f;
+  transition: 0.4s;
 }
 
 /* media queries for smaller screens */
