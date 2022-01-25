@@ -189,6 +189,10 @@ footer {
   transition: 0.4s;
 }
 
+#blosmap {
+  text-align: center;
+}
+
 /* media queries for smaller screens */
 @media screen and (max-width: 600px) {
   .headerRight {
