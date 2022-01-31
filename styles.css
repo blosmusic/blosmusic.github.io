@@ -231,7 +231,7 @@ button:hover {
   }
 
   #blosmap {
-    width: 400px;
-    height: 280px;
+    max-width: 75%;
+    max-height: 50%;
   }
 }
