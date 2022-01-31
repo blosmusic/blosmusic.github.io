@@ -191,6 +191,8 @@ footer {
 
 #blosmap {
   text-align: center;
+  width: 450px;
+  height: 300px;
 }
 
 /* media queries for smaller screens */
@@ -214,5 +216,10 @@ footer {
 }
   .socialIcons a {
     float: center;
+  }
+
+  #blosmap {
+    width: 300px;
+    height: 200px;
   }
 }
