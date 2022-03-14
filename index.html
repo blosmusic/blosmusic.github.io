@@ -6,19 +6,16 @@
   <link rel="icon" type="image/x-icon" href="/files/favicon.ico">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/1d67a0adfe.js" crossorigin="anonymous"></script>
   <meta charset=" UTF-8">
   <meta name="description" content="BLOS Portfolio Site">
   <meta name="keywords" content="HTML, CSS, JavaScript">
   <meta name="author" content="Benedict Lamb OSullivan">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <div>
-    <ul>
+    <ul class="headerIcons">
 
-      <div class="headerLeft">
-        <li>MUSICIAN | COMPOSER | EDUCATOR</li>
-      </div>
-
-      <li class="headerRight">
+      <li>
         <div class="socialIcons">
           <a href="https://www.youtube.com/channel/UCEV73n3RhzGsYWp4kQbLjaQ" target="_blank" class="fa fa-youtube"></a>
           <a href="https://www.instagram.com/blosmusic/" target="_blank" class="fa fa-instagram"></a>
@@ -34,18 +31,30 @@
 </header>
 
 <body>
-  <nav>
-    <a href="#home">
-      <h1 class="navLeft">Ben L. O'Sullivan</h1>
-    </a>
-    <ul class="navRight">
-      <li class="navRight"><a href="/contact.html">Contact</a></li>
-      <li class="navRight"><a href="#about">About</a></li>
-    </ul>
-  </nav>
+  <section class="hero">
+    <nav>
+      <a href="#home">
+        <img id="LogoHero" src="/files/2021BLOS_Logo_FullScreen.png" alt="BLOS Logo">
+      </a>
+      <ul id="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+    <div class="heroArea">
+      <div class="heroText">
+        <h1>Ben L. O'Sullivan</h1>
+        <p>MUSICIAN | COMPOSER | EDUCATOR</p>
+      </div>
+    </div>
+
+  </section>
 
   <main>
-    <!-- home section -->
     <div class="row">
       <div class="column">
 
@@ -80,38 +89,40 @@
     </div>
     <br>
   </main>
-</body>
 
-<br>
-<footer>
-  <div class="row">
-    <!-- column one -->
-    <div class="footerColumn">
+  <br>
+  <footer>
+    <div class="row">
+      <!-- column one -->
+      <div class="footerColumn">
 
-      <div class="socialIcons">
-        <a href="https://www.youtube.com/channel/UCEV73n3RhzGsYWp4kQbLjaQ" target="_blank" class="fa fa-youtube"></a>
-        <a href="https://www.instagram.com/blosmusic/" target="_blank" class="fa fa-instagram"></a>
-        <a href="https://www.facebook.com/blosmusic" target="_blank" class="fa fa-facebook"></a>
-        <a href="https://soundcloud.com/benedictlambosullivan" target="_blank" class="fa fa-soundcloud"></a>
-        <a href="https://www.linkedin.com/in/benlambosullivan/" target="_blank" class="fa fa-linkedin"></a>
-        <a href="https://twitter.com/blosmusic" target="_blank" class="fa fa-twitter"></a>
+        <div class="socialIcons">
+          <a href="https://www.youtube.com/channel/UCEV73n3RhzGsYWp4kQbLjaQ" target="_blank" class="fa fa-youtube"></a>
+          <a href="https://www.instagram.com/blosmusic/" target="_blank" class="fa fa-instagram"></a>
+          <a href="https://www.facebook.com/blosmusic" target="_blank" class="fa fa-facebook"></a>
+          <a href="https://soundcloud.com/benedictlambosullivan" target="_blank" class="fa fa-soundcloud"></a>
+          <a href="https://www.linkedin.com/in/benlambosullivan/" target="_blank" class="fa fa-linkedin"></a>
+          <a href="https://twitter.com/blosmusic" target="_blank" class="fa fa-twitter"></a>
+        </div>
+
       </div>
+      <!-- column two -->
+      <div class="footerColumn">
+        <a href="#top"><img id="BLOS_Logo_Footer" src="/files/2021BLOS_Logo_FullScreen.png" alt="BLOS Logo"></a>
+      </div>
+      <!-- column three -->
+      <div class="footerColumn">
+        <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
+        <script type='text/javascript'>
+          kofiwidget2.init('Support Me on Ko-fi', '#00ff9f', 'F1F03SRWK');
+          kofiwidget2.draw();
+        </script>
+      </div>
+    </div>
+    <h6>&copy; 2022 - Ben L. O'Sullivan. All rights reserved.</h6>
+  </footer>
 
-    </div>
-    <!-- column two -->
-    <div class="footerColumn">
-      <a href="#top"><img id="BLOS_Logo_Footer" src="/files/2021BLOS_Logo_FullScreen.png" alt="BLOS Logo"></a>
-    </div>
-    <!-- column three -->
-    <div class="footerColumn">
-      <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script>
-      <script type='text/javascript'>
-        kofiwidget2.init('Support Me on Ko-fi', '#00ff9f', 'F1F03SRWK');
-        kofiwidget2.draw();
-      </script>
-    </div>
-  </div>
-  <h6>&copy; 2022 - Ben L. O'Sullivan. All rights reserved.</h6>
-</footer>
+  <script src="app.js"></script>
+</body>
 
 </html>
