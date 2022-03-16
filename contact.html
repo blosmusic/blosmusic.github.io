@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <a name="#top"></a>
-<header id="home">
+<header>
   <title>Ben L. O'Sullivan</title>
   <link rel="icon" type="image/x-icon" href="/files/favicon.ico">
   <link rel="stylesheet" type="text/css" href="styles.css">
@@ -33,12 +33,12 @@
 <body>
   <section class="hero">
     <nav>
-      <a href="#home">
+      <a href="#top">
         <img id="LogoHero" src="/files/2021BLOS_Logo_FullScreen.png" alt="BLOS Logo">
       </a>
       <ul id="nav-list">
         <li><a href="/#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="/#projects">Projects</a></li>
         <li><a href="/contact.html">Contact</a></li>
       </ul>
       <button class="hamburger" id="hamburger">
@@ -47,49 +47,51 @@
     </nav>
     <div class="heroArea">
       <div class="heroText">
-        <h1>Ben L. O'Sullivan</h1>
+        <a href="#top"><h1>Ben L. O'Sullivan</h1></a>
         <p>MUSICIAN | COMPOSER | EDUCATOR</p>
       </div>
     </div>
-
   </section>
 
   <!-- Page specific content -->
   <main>
-    <!-- contact section -->
-    <!-- left column -->
-    <div class="row">
-      <div class="column">
+    <div class="content-section">
+      <!-- contact section -->
+      <!-- left column -->
+      <div class="row">
+        <div class="column">
 
-        <div id="contact">
-          <h2>CONTACT</h2>
-          <p>Email: <strong>blosguitarist@gmail.com</strong> or use the button below to open your email window.</p>
-          <button><a id="emailButton" href="mailto:blosguitarist@gmail.com">Email Me</a></button>
+          <div id="contact">
+            <h2>CONTACT</h2>
+            <p>Email: <strong>blosguitarist@gmail.com</strong> or use the button below to open your email window.</p>
+            <button><a id="emailButton" href="mailto:blosguitarist@gmail.com">Email Me</a></button>
+          </div>
+          <br>
         </div>
-        <br>
-      </div>
-      <!-- right column -->
-      <div class="column" id="mediaColumn">
-        <br>
-        <iframe id="blosmap"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2329.348254101364!2d-7.068018484977077!3d54.280106412060114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8acbe70d2609b7f7%3A0xf4c729cedf601cc9!2sBen%20Lamb%20O&#39;Sullivan%20Music!5e0!3m2!1sen!2sie!4v1643123142012!5m2!1sen!2sie"
-          allowfullscreen="" loading="lazy"></iframe>
-        <!-- Need to learn how to tie up backend for forms -->
-        <!-- <h3>Let's Talk</h3>
-        <form action="" method="post">
-          <label for="text">Name:</label>
-          <input type="text" name="text" id="" required minlength="3">
+        <!-- right column -->
+        <div class="column" id="mediaColumn">
           <br>
-          <label for="text">Email:</label>
-          <input type="text" name="text" id="" required minlength="5">
-          <br>
-          <input type="text" rows="5" cols="40">
-          <br>
-          <input type="submit" value="Send">
-        </form> -->
+          <iframe id="blosmap"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2329.348254101364!2d-7.068018484977077!3d54.280106412060114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8acbe70d2609b7f7%3A0xf4c729cedf601cc9!2sBen%20Lamb%20O&#39;Sullivan%20Music!5e0!3m2!1sen!2sie!4v1643123142012!5m2!1sen!2sie"
+            allowfullscreen="" loading="lazy"></iframe>
+          <!-- Need to learn how to tie up backend for forms -->
+          <!-- <h3>Let's Talk</h3>
+          <form action="" method="post">
+            <label for="text">Name:</label>
+            <input type="text" name="text" id="" required minlength="3">
+            <br>
+            <label for="text">Email:</label>
+            <input type="text" name="text" id="" required minlength="5">
+            <br>
+            <input type="text" rows="5" cols="40">
+            <br>
+            <input type="submit" value="Send">
+          </form> -->
 
+        </div>
       </div>
     </div>
+
   </main>
 
   <br>

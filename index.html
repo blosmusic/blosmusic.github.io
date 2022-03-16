@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <a name="#top"></a>
-<header id="home">
+<header>
   <title>Ben L. O'Sullivan</title>
   <link rel="icon" type="image/x-icon" href="/files/favicon.ico">
   <link rel="stylesheet" type="text/css" href="styles.css">
@@ -33,7 +33,7 @@
 <body>
   <section class="hero">
     <nav>
-      <a href="#home">
+      <a href="#top">
         <img id="LogoHero" src="/files/2021BLOS_Logo_FullScreen.png" alt="BLOS Logo">
       </a>
       <ul id="nav-list">
@@ -47,38 +47,78 @@
     </nav>
     <div class="heroArea">
       <div class="heroText">
-        <h1>Ben L. O'Sullivan</h1>
+        <a href="#top">
+          <h1>Ben L. O'Sullivan</h1>
+        </a>
         <p>MUSICIAN | COMPOSER | EDUCATOR</p>
       </div>
     </div>
-    
   </section>
 
   <!-- Page specific content -->
   <main>
-
     <!-- about section -->
-    <!-- left column -->
-    <div class="row">
-      <div class="column">
+    <div class="content-section" id="about">
+      <!-- left column -->
+      <div class="row">
+        <div class="column">
 
-        <div id="about">
+          <!-- <div id="about"> -->
           <h2>ABOUT</h2>
           <p>Ben Lamb O'Sullivan is a musician, composer, and researcher.</p>
           <p>The projects available here are designed to help musicians practice and include within creative practice.
           </p>
+          <!-- </div> -->
+
         </div>
-
-      </div>
-      <br>
-      <!-- right column -->
-      <div class="column">
         <br>
-        <img class="pictureContainer" src="/files/ProfilePic.jpg" alt="BLOS Profiler">
+        <!-- right column -->
+        <div class="column">
+          <br>
+          <img class="pictureContainer" src="/files/ProfilePic.jpg" alt="BLOS Profiler">
 
+        </div>
       </div>
     </div>
-    <br>
+
+    <div class="content-section" id="projects">
+      <section class="sub-section">
+        <h2>PROJECTS</h2>
+        <div class="project-container">
+          <div class="project-card">
+            <img class="project-image" src="/files/BLOS_Logo.PNG" alt="project one image" />
+            <h3>Project One</h3>
+            <p class="project-card-text">Example Project Text.</p>
+            <hr />
+            <p class="project-card-text"><a class="project-link" href="https://github.com/blosmusic">View</a> | <a class="project-link" href="https://github.com/blosmusic">Code</a></p>
+          </div>
+
+          <div class="project-card">
+            <img class="project-image" src="/files/BLOS_Logo.PNG" alt="project two image" />
+            <h3>Project Two</h3>
+            <p class="project-card-text">Example Project Text.</p>
+            <hr />
+            <p class="project-card-text"><a class="project-link" href="https://github.com/blosmusic">View</a> | <a class="project-link" href="https://github.com/blosmusic">Code</a></p>
+          </div>
+
+          <div class="project-card">
+            <img class="project-image" src="/files/BLOS_Logo.PNG" alt="project three image" />
+            <h3>Project Three</h3>
+            <p class="project-card-text">Example Project Text.</p>
+            <hr />
+            <p class="project-card-text"><a class="project-link" href="https://github.com/blosmusic">View</a> | <a class="project-link" href="https://github.com/blosmusic">Code</a></p>
+          </div>
+
+          <div class="project-card">
+            <img class="project-image" src="/files/BLOS_Logo.PNG" alt="project four image" />
+            <h3>Project Four</h3>
+            <p class="project-card-text">Example Project Text.</p>
+            <hr />
+            <p class="project-card-text"><a class="project-link" href="https://github.com/blosmusic">View</a> | <a class="project-link" href="https://github.com/blosmusic">Code</a></p>
+          </div>
+        </div>
+      </section>
+    </div>
   </main>
 
   <br>

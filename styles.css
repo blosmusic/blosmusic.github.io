@@ -14,7 +14,11 @@ h1 {
   margin: 0;
 }
 
-h1:hover {
+a:visited {
+  color: #000;
+}
+
+h1 a:hover {
   color: #00ff9f;
   text-decoration: none;
   transition-duration: 0.4s;
@@ -26,15 +30,19 @@ h2, h3 {
 
 h2 {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 25px;
 }
 
 h6 {
   font-size: 12px;
+}
+
+p {
+  font-size: 18px;
 }
 
 header, footer {
@@ -101,7 +109,7 @@ nav {
 }
 
 .hero {
-  height: 89vh;
+  height: 81vh;
 }
 
 .hero a {
@@ -123,6 +131,7 @@ nav {
 }
 
 .heroText {
+  margin-top: -100px;
   margin-left: 40px;
 }
 
@@ -131,11 +140,13 @@ ul {
   display: flex;
 }
 
-
-
 /* main body */
 body {
   background-color: #fff;
+}
+
+.content-section {
+  padding: 20px;
 }
 
 .row {
@@ -145,6 +156,46 @@ body {
 .column {
   flex: 50%;
   padding: 10px;
+}
+
+/* project section specific */
+.project-card {
+  width: 300px;
+  height: 500px;
+  box-shadow: 1px 1px 10px #00ff9f;
+  margin: 10px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-card-text {
+  font-size: 16px;
+  text-align: center;
+}
+
+.project-image {
+  margin-top: 25px;
+  width: 200px;
+  padding: 0px 50px 0px 50px;
+  border-radius: 15px;
+}
+
+hr {
+  margin: 0px 30px 0px 30px;
+  border: 1px solid #00ff9f;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.project-link:hover {
+  color: #00ff9f;
+  transition-duration: 0.4s;
 }
 
 #mediaColumn {
@@ -213,6 +264,7 @@ button:hover {
   height: 300px;
 }
 
+/* mobile specific */
 .hamburger {
   display: none;
 }
@@ -234,6 +286,11 @@ button:hover {
   .column, .footerColumn {
     flex: 100%;
   }
+
+  .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
   .footerColumn {
     display: flex;
