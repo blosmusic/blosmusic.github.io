@@ -43,6 +43,7 @@ h6 {
 
 p {
   font-size: 18px;
+  line-height: 1.6;
 }
 
 header, footer {
@@ -63,21 +64,21 @@ header {
   height: 45px;
 }
 
-.headerIcons {
+.header-icons {
   display: inline;
   float: right;
   justify-content: space-around;
   padding-right: 10px;
 }
 
-.socialIcons a {
+.social-icons a {
   font-size: 20px;
   color: #00ff9f;
   text-decoration: none;
   padding: 5px;
 }
 
-.socialIcons a:hover {
+.social-icons a:hover {
   color: #fff;
   transition-duration: 0.6s;
   text-decoration: none;
@@ -104,7 +105,7 @@ nav {
   justify-content: space-between;
 }
 
-#LogoHero {
+#logo-hero {
   height: 90px;
 }
 
@@ -123,16 +124,20 @@ nav {
   transition-duration: 0.4s;
 }
 
-.heroArea {
+.hero-area {
   display: flex;
   flex-direction: column;
   height: 100%;
   justify-content: center;
 }
 
-.heroText {
+.hero-text {
   margin-top: -100px;
   margin-left: 40px;
+}
+
+.hero-sub-text {
+  line-height: 0;
 }
 
 ul {
@@ -179,7 +184,7 @@ body {
 .project-card-description {
   font-size: 16px;
   text-align: left;
-  line-height: 1.6;
+  /* line-height: 1.6; */
   padding: 10px 30px;
 }
 
@@ -205,16 +210,16 @@ hr {
   transition-duration: 0.4s;
 }
 
-#mediaColumn {
+#media-column {
   text-align: center;
 }
 
-.footerColumn {
+.footer-column {
   flex: 33%;
   padding: 10px;
 }
 
-.pictureContainer {
+.picture-container {
   display: block;
   width: 100%;
   height: 100%;
@@ -229,7 +234,7 @@ footer {
   text-align: center;
 }
 
-#BLOS_Logo_Footer {
+#blos-logo-footer {
   float: center;
   height: 120px;
 }
@@ -255,12 +260,12 @@ button:hover {
   border-color: #00ff9f;
 }
 
-#emailButton {
+#email-button {
   text-decoration: none;
   color: #000;
 }
 
-#emailButton:hover {
+#email-button:hover {
   text-decoration: none;
   color: #00ff9f;
 }
@@ -278,7 +283,7 @@ button:hover {
 
 /* media queries for smaller screens */
 @media only screen and (max-width: 1000px) {
-  .headerIcons {
+  .header-icons {
     display: none;
   }
 
@@ -290,7 +295,7 @@ button:hover {
     flex-wrap: wrap;
   }
 
-  .column, .footerColumn {
+  .column, .footer-column {
     flex: 100%;
   }
 
@@ -299,12 +304,12 @@ button:hover {
         flex-wrap: wrap;
     }
 
-  .footerColumn {
+  .footer-column {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-  .socialIcons a {
+  .social-icons a {
     float: center;
   }
 
@@ -351,7 +356,7 @@ button:hover {
     border-top-color: #00ff9f;
   }
 
-  .heroArea {
+  .hero-area {
     border-top: solid 3px;
     border-top-color: #00ff9f;
   }
@@ -360,7 +365,7 @@ button:hover {
     color: #00ff9f;
   }
 
-  #LogoHero {
+  #logo-hero {
     display: none;
   }
 
