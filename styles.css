@@ -166,7 +166,7 @@ body {
 /* project section specific */
 .project-card {
   width: 300px;
-  height: 500px;
+  height: 600px;
   box-shadow: 1px 1px 10px #00ff9f;
   margin: 10px;
 }
@@ -190,6 +190,7 @@ body {
 
 .project-image {
   margin-top: 25px;
+  height: 200px;
   width: 200px;
   padding: 0px 50px 0px 50px;
   border-radius: 15px;
