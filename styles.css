@@ -222,8 +222,8 @@ hr {
 
 .picture-container {
   display: block;
+  margin-top: 50px;
   width: 100%;
-  height: 100%;
   border-radius: 7%;
   filter: grayscale(70%);
   justify-content: center;
