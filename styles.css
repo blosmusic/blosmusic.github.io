@@ -222,9 +222,10 @@ hr {
 }
 
 .funding-logo-section {
-  display: flex;
+  display: block;
   justify-content: space-around;
   align-items: center;
+  text-align: center;
 }
 
 .funding-logo-irc {
