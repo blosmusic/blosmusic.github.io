@@ -165,10 +165,11 @@ body {
 
 /* project section specific */
 .project-card {
-  width: 300px;
+  width: 290px;
   height: 600px;
   box-shadow: 1px 1px 10px #00ff9f;
   margin: 10px;
+  background-color: #fafafa;
 }
 
 .project-container {
@@ -307,7 +308,7 @@ button:hover {
 }
 
 /* media queries for smaller screens */
-@media only screen and (max-width: 10a0a0apx) {
+@media only screen and (max-width: 1200px) {
   .header-icons {
     display: none;
   }
