@@ -330,6 +330,21 @@ button:hover {
     flex: 100%;
   }
 
+  .funding-logo-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .funding-logo-irc {
+    height: 50px;
+    padding: 10px;
+  }
+
+  .funding-logo-dkit {
+    height: 70px;
+    padding: 10px;
+  }
+
   .project-container {
         display: flex;
         flex-wrap: wrap;
