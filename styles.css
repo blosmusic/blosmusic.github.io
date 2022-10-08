@@ -10,12 +10,12 @@ header, nav, h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 50px;
   text-decoration: none;
-  color: #000;
+  color: #0a0a0a;
   margin: 0;
 }
 
 a:visited {
-  color: #000;
+  color: #0a0a0a;
 }
 
 h1 a:hover {
@@ -47,7 +47,7 @@ p {
 }
 
 header, footer {
-  background-color: #000;
+  background-color: #0a0a0a;
   color: #00ff9f;
   font-size: 13px;
   padding: 20px 20px;
@@ -79,7 +79,7 @@ header {
 }
 
 .social-icons a:hover {
-  color: #fff;
+  color: #fdfdfd;
   transition-duration: 0.6s;
   text-decoration: none;
   padding: 5px;
@@ -93,7 +93,7 @@ header {
 
 /* navigation specific */
 section {
-  background-color: #fff;
+  background-color: #fdfdfd;
 }
 
 nav {
@@ -114,7 +114,7 @@ nav {
 }
 
 .hero a {
-  color: #000;
+  color: #0a0a0a;
   padding: 20px;
   text-decoration: none;
 }
@@ -147,7 +147,7 @@ ul {
 
 /* main body */
 body {
-  background-color: #fff;
+  background-color: #fdfdfd;
 }
 
 .content-section {
@@ -203,7 +203,7 @@ hr {
 
 .project-link {
   text-decoration: none;
-  color: #000;
+  color: #0a0a0a;
 }
 
 .project-link:hover {
@@ -218,6 +218,30 @@ hr {
 .footer-column {
   flex: 33%;
   padding: 10px;
+}
+
+.funding-logo-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.funding-logo-irc {
+  height: 70px;
+  padding: 10px;
+  color: #0a0a0a;
+  filter: invert(100%);
+  justify-content: center;
+  align-items: center;
+}
+
+.funding-logo-dkit {
+  height: 90px;
+  padding: 10px;
+  color: #0a0a0a;
+  filter: grayscale(100%) brightness(0%);
+  justify-content: center;
+  align-items: center;
 }
 
 .picture-container {
@@ -247,8 +271,8 @@ footer {
 
 button {
   background-color: #00ff9f;
-  border: 3px solid #000;
-  color: #000;
+  border: 3px solid #0a0a0a;
+  color: #0a0a0a;
   padding: 5px;
   font-size: 20px;
   border-radius: 20px;
@@ -256,14 +280,14 @@ button {
 }
 
 button:hover {
-  background-color: #000;
+  background-color: #0a0a0a;
   color: #00ff9f;
   border-color: #00ff9f;
 }
 
 #email-button {
   text-decoration: none;
-  color: #000;
+  color: #0a0a0a;
 }
 
 #email-button:hover {
@@ -272,7 +296,7 @@ button:hover {
 }
 
 #blosmap {
-  border: 3px solid #000;
+  border: 3px solid #0a0a0a;
   width: 90%;
   height: 300px;
 }
@@ -283,7 +307,7 @@ button:hover {
 }
 
 /* media queries for smaller screens */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 10a0a0apx) {
   .header-icons {
     display: none;
   }
@@ -347,7 +371,7 @@ button:hover {
     align-items: flex-start;
     padding: 10px;
     color: #00ff9f;
-    background-color: #000;
+    background-color: #0a0a0a;
   }
 
   li {
