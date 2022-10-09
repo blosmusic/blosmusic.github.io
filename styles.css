@@ -231,16 +231,14 @@ hr {
 .funding-logo-irc {
   height: 70px;
   padding: 10px;
-  color: #0a0a0a;
   filter: invert(100%);
   justify-content: center;
   align-items: center;
 }
 
 .funding-logo-dkit {
-  height: 90px;
+  height: 100px;
   padding: 10px;
-  color: #0a0a0a;
   filter: invert(100%);
   justify-content: center;
   align-items: center;
